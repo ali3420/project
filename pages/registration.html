@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+</head>
+
+<body>
+
+  <h1>Registration</h1>
+
+  <div>
+    <a href="../index.html">Index</a>
+    <a href="articles.html">Articles</a>
+    <a href="catalog.html">Catalog</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="page-nav.html">Page-nav</a>
+    <a href="registration.html">Registration</a>
+  </div>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+    <fieldset>
+      <legend>Реєстрація</legend>
+      <div>
+        <label for="surname">Призвіще</label>
+        <input id="surname" name="surname" placeholder="Призвіще" type="text">
+      </div>
+      <div>
+        <label for="name">Ім'я</label>
+        <input id="name" name="name" placeholder="Ім'я" type="text">
+      </div>
+      <div>
+        <label for="photo">Додати фотографію</label>
+        <input id="photo" name="photo" type="file">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" placeholder="Email" type="email">
+      </div>
+      <div>
+        <label for="password">Пароль</label>
+        <input id="password" name="password" placeholder="Пароль" type="password">
+      </div>
+      <div>
+        <label for="site">Адреса сайту</label>
+        <input id="site" name="site" type="text" value="mysite.name">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Стать:</legend>
+      <div>
+        <input id="male" name="gender" type="radio" value="male">
+        <label for="male">Чоловічий</label>
+      </div>
+      <div>
+        <input id="female" name="gender" type="radio" value="female">
+        <label for="female">Жіноча</label>
+      </div>
+      <div>
+        <label for="date">Дата нарождения:</label>
+        <input id="date" name="date" type="date">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Виберіть кухню:</legend>
+      <div>
+        <input checked id="ua" name="kitchen" type="checkbox" value="ua">
+        <label for="ua">Українська</label>
+      </div>
+      <div>
+        <input id="jp" name="kitchen" type="checkbox" value="jp">
+        <label for="jp">Японська</label>
+      </div>
+      <div>
+        <input id="kr" name="kitchen" type="checkbox" value="kr">
+        <label for="kr">Корейська</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Інформація:</legend>
+      <div>
+        <label for="txt">Про себе</label>
+        <textarea cols="50" id="txt" name="txt" placeholder="Введіть інформацію про себе..." rows="10"></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Дія:</legend>
+      <div>
+        <button type="submit">Зареєструватися</button>
+      </div>
+      <div>
+        <button type="reset">Очистити форму</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>
+    <p>&copy; Ali</p>
+  </footer>
+
+</body>
+
+</html>
